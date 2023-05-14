@@ -12,12 +12,14 @@ function App() {
           <ul>Projects</ul>
         </nav>
       </header>
-      <main className='p-16 flex flex-col items-center'>
+      <main className='p-16 flex flex-col gap-6 items-center'>
         <section className='text-center'>
           <img src={Hero} alt="hero" width={400}/>
-          <p className='font-semibold text-3xl'>Ankit Kumar <span className='text-[#4F46E5]'>a Software Developer</span></p>
+          <h1 className='font-semibold text-3xl'>Ankit Kumar <span className='text-[#4F46E5]'>a Software Developer</span></h1>
         </section>
-        <section></section>
+        <section className='tech-stack bg-[#F3F4F6]'>
+          <h1 className='font-semibold text-3xl'>Technologies</h1>
+        </section>
       </main>
       <footer></footer>
     </>
