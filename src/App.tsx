@@ -12,12 +12,12 @@ function App() {
           <ul>Projects</ul>
         </nav>
       </header>
-      <main className='p-16 flex flex-col gap-12 items-center'>
-        <section className='text-center'>
+      <main className='p-16 flex flex-col items-center'>
+        <section className='text-center py-8'>
           <img src={Hero} alt="hero" width={400}/>
           <h1 className='font-semibold text-3xl'>Ankit Kumar <span className='text-[#4F46E5]'>a Software Developer</span></h1>
         </section>
-        <section className='tech-stack bg-[#F3F4F6] w-full flex flex-col items-center'>
+        <section className='tech-stack bg-[#F3F4F6] w-full flex flex-col items-center py-8'>
           <div>
             <h1 className='font-semibold text-3xl'>Technologies I have worked with:</h1>
             <ul className='tech-stack-list list-disc pl-6'>
@@ -31,6 +31,10 @@ function App() {
               <li>Bootstrap</li>
             </ul>
           </div>
+        </section>
+        <section className='pitch py-8 w-full flex flex-col items-center'>
+            <h1 className='font-semibold text-3xl'>Looking to Collaborate? Let's Talk</h1>
+            <p className='w-1/2 pl-4'>I enjoy working on UI, and I can create a beautiful UI for you. I'm eager to work on the frontend component of it in partnership with a business or individual. Additionally, I'm interested in freelancing. Let's discuss more!</p>
         </section>
       </main>
       <footer></footer>
