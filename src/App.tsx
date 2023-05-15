@@ -18,17 +18,19 @@ function App() {
           <h1 className='font-semibold text-3xl'>Ankit Kumar <span className='text-[#4F46E5]'>a Software Developer</span></h1>
         </section>
         <section className='tech-stack bg-[#F3F4F6] w-full flex flex-col items-center'>
-          <h1 className='font-semibold text-3xl'>Technologies I have worked with:</h1>
-          <ul className='tech-stack-list '>
-            <li>JavasScript</li>
-            <li>React JS</li>
-            <li>Vue JS</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git</li>
-            <li>Tailwind CSS</li>
-            <li>Bootstrap</li>
-          </ul>
+          <div>
+            <h1 className='font-semibold text-3xl'>Technologies I have worked with:</h1>
+            <ul className='tech-stack-list list-disc pl-6'>
+              <li>JavasScript</li>
+              <li>React JS</li>
+              <li>Vue JS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Git</li>
+              <li>Tailwind CSS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
         </section>
       </main>
       <footer></footer>
