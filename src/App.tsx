@@ -13,9 +13,10 @@ function App() {
         </nav>
       </header>
       <main className='p-16 flex flex-col items-center'>
-        <section className='text-center py-8'>
+        <section className='w-full flex flex-col items-center gap-4 py-8'>
           <img src={Hero} alt="hero" width={400}/>
-          <h1 className='font-semibold text-3xl'>Ankit Kumar <span className='text-[#4F46E5]'>a Software Developer</span></h1>
+          <h1 className='font-semibold text-3xl text-[#4F46E5]'>Hey, I'm Ankit Kumar</h1>
+          <p className='w-full md:w-1/2 md:pl-4'>A creative and dedicated <b>Frontend Developer</b> with a passion for crafting exceptional user experiences. I specialize in<b> HTML, CSS, and JavaScript</b>, and I am proficient in popular frameworks like <b>React and Vue</b>.</p>
         </section>
         <section className='tech-stack bg-[#F3F4F6] w-full flex flex-col items-center py-8'>
           <div>
