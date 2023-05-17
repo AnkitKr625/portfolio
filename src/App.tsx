@@ -5,11 +5,11 @@ function App() {
 
   return (
     <>
-      <header className='p-4 h-24 bg-[#4F46E5] rounded-b-2xl text-white font-bold text-xl flex justify-between'>
-        <div className='name'>Ankit Kumar</div>
-        <nav className='navigation flex gap-4 mt-6'>
-          <ul>Home</ul>
-          <ul>Projects</ul>
+      <header className='p-4 h-24 bg-[#4F46E5] rounded-b-2xl text-white font-bold text-xl flex items-center justify-between'>
+        <div className='name'>{`<D/>`}</div>
+        <nav className='navigation flex gap-4'>
+          <span className='cursor-pointer'>Home</span>
+          <span className='cursor-pointer'>Projects</span>
         </nav>
       </header>
       <main className='p-16 flex flex-col items-center'>
