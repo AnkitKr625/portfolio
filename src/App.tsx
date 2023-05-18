@@ -41,7 +41,10 @@ function App() {
             {/* <a href='mailto:ankitkr1009@gmail.com'>ankitkr1009@gmail.com</a> */}
         </section>
       </main>
-      <footer className='p-4 h-24 bg-[#4F46E5] rounded-t-2xl text-white font-bold text-xl flex items-center justify-center'></footer>
+      <footer className='p-4 h-24 bg-[#4F46E5] rounded-t-2xl text-white font-bold text-xl flex items-center justify-center gap-4'>
+        <div>Github</div>
+        <div>LinkedIn</div>
+      </footer>
     </>
   )
 }
