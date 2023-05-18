@@ -1,6 +1,7 @@
 import Hero from './assets/hero.svg';
 import GitHubLogo from './assets/github.svg';
 import LinkedInLogo from './assets/linkedIn.svg';
+import MailLogo from './assets/mail.svg';
 import './App.css';
 
 function App() {
@@ -54,6 +55,13 @@ function App() {
         <img
           src={LinkedInLogo}
           alt="linkedIn"
+          className='cursor-pointer'
+          width={40}
+          onClick={() => {window.open('https://www.linkedin.com/in/ankitkr625/', '_blank')}}
+        />
+        <img
+          src={MailLogo}
+          alt="mail"
           className='cursor-pointer'
           width={40}
           onClick={() => {window.open('https://www.linkedin.com/in/ankitkr625/', '_blank')}}
