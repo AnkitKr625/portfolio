@@ -42,8 +42,8 @@ function App() {
         </section>
       </main>
       <footer className='p-4 h-24 bg-[#4F46E5] rounded-t-2xl text-white font-bold text-xl flex items-center justify-center gap-4'>
-        <div>Github</div>
-        <div>LinkedIn</div>
+        <div className='cursor-pointer' onClick={() => {window.open('https://github.com/AnkitKr625', '_blank')}}>Github</div>
+        <div className='cursor-pointer' onClick={() => {window.open('https://www.linkedin.com/in/ankitkr625/', '_blank')}}>LinkedIn</div>
       </footer>
     </>
   )
