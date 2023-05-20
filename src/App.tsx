@@ -36,13 +36,13 @@ function App() {
           width={40}
           onClick={() => {window.open('https://www.linkedin.com/in/ankitkr625/', '_blank')}}
         />
-        <img
-          src={MailLogo}
-          alt="mail"
-          className='cursor-pointer'
-          width={40}
-          onClick={() => {window.open('https://www.linkedin.com/in/ankitkr625/', '_blank')}}
-        />
+        <a className='cursor-pointer' href='mailto:ankitkr1009@gmail.com' target='_blank'>
+          <img
+            src={MailLogo}
+            alt="mail"
+            width={40}
+          />
+        </a>
         <img
           src={TwitterLogo}
           alt="twitter"
